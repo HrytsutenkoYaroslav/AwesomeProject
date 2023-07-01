@@ -1,11 +1,11 @@
-import { Pressable, StyleSheet, Text } from "react-native";
+import { Pressable, StyleSheet, Text, TouchableOpacity } from "react-native";
 
 export default function ButtonChangeAuthorization({title}) {
 	return (
 		<>
-			<Pressable>
+			<TouchableOpacity>
         <Text style={styles.textChangeAuthorization}>{title}</Text>
-			</Pressable>
+			</TouchableOpacity>
 		</>
 	);
 }

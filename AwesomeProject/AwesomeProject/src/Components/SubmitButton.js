@@ -1,11 +1,11 @@
-import { Pressable, StyleSheet, Text } from "react-native";
+import { Pressable, StyleSheet, Text, TouchableOpacity } from "react-native";
 
 export default function SubmitButton({ title }) {
 	return (
 		<>
-			<Pressable style={styles.button}>
+			<TouchableOpacity style={styles.button}>
 				<Text style={styles.buttonText}>{title}</Text>
-			</Pressable>
+			</TouchableOpacity>
 		</>
 	);
 }
